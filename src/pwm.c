@@ -15,8 +15,7 @@ extern inline unsigned int metal_pwm_get_duty(struct metal_pwm *pwm,
                                               unsigned int idx);
 extern inline unsigned int metal_pwm_get_freq(struct metal_pwm *pwm,
                                               unsigned int idx);
-extern inline int metal_pwm_trigger(struct metal_pwm *pwm,
-                                    unsigned int idx,
+extern inline int metal_pwm_trigger(struct metal_pwm *pwm, unsigned int idx,
                                     metal_pwm_run_mode_t mode);
 extern inline int metal_pwm_stop(struct metal_pwm *pwm, unsigned int idx);
 extern inline int metal_pwm_cfg_interrupt(struct metal_pwm *pwm,
